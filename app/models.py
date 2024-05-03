@@ -2,30 +2,31 @@ from django.db import models
 from django.contrib.auth.models import User
 
 # Create your models here.
-class Usario(User): 
-    TIPO_USUARIO_CHOICES = [
+
+class Usuario(User):
+    TIPO_USUARIO_CHOISES = [
         ('arrendatario', 'Arrendatario'),
         ('arrendador', 'Arrendador'),
     ]
-    nombres=models.CharField(max_length=50)
-    apellidos=models.CharField(max_length=50)
-    rut=models.CharField(max_length=10, unique=True)
-    direccion=models.CharField(max_length=100)
-    correo_electronico=models.EmailField(max_length=100, unique=True)
-    telefono=models.CharField(max_length=12)
-    tipo_usuario=models.CharField(max_length=20, choices=TIPO_USUARIO_CHOICES)
+    nombres = models.CharField(max_length=50)
+    apellidos = models.CharField(max_length=50)
+    rut = models.CharField(max_length=10, unique=True)
+    direccion = models.CharField(max_length=100)
+    telefono = models.CharField(max_length=13)
+    tipo_usuario = models.CharField(max_length=20, choices=TIPO_USUARIO_CHOISES)
+    correo_electronico = models.EmailField(unique=True, default='correo@correo.cl') 
 
-    def __str__(self) -> str:
+    def __str__(self):
         return f"{self.nombres} {self.apellidos}"
-    
-
+        
+        
+        
 class Inmueble(models.Model):
-    TIPO_INMUEBLE_CHOICES = [
-        ('casa', 'Casa'),
-        ('departamento', 'Departamento'),
-        ('parcela', 'Parcela'),
+    TIPO_INMUEBLE_CHOISES = [
+        ('casa','Casa'),
+        ('departamento','Departamento'),
+        ('parcela','Parcela'),
     ]
-
     nombre=models.CharField(max_length=50)
     direccion=models.CharField(max_length=50)
     descripcion=models.CharField(max_length=50)
@@ -38,18 +39,16 @@ class Inmueble(models.Model):
     cantidad_estacionamientos = models.PositiveIntegerField()
     cantidad_habitaciones = models.PositiveIntegerField()
     cantidad_banos = models.PositiveIntegerField()
-    tipo_de_inmueble=models.CharField(max_length=12, choices=TIPO_INMUEBLE_CHOICES)
+    tipo_de_inmueble=models.CharField(max_length=12, choices=TIPO_INMUEBLE_CHOISES)
     
     def __str__(self) -> str:
         return f"{self.nombre}"
     
-class Solicitud_arriendo(models.Model): 
-    arrendatario=models.ForeignKey(Usario, on_delete=models.CASCADE)
-    Inmueble=models.ForeignKey(Inmueble, on_delete=models.CASCADE)
-    fecha_inicio=models.DateField()
-    fecha_termino=models.DateField()
-    mensaje=models.TextField(blank=True) 
 
-    def __str__(self) -> str:
-        return f"{self.arrendatario} {self.Inmueble} {self.fecha_inicio} {self.fecha_termino}"
-    
+
+class SolicitudArriendo(models.Model):
+    arrendatario = models.ForeignKey(Usuario, on_delete=models.CASCADE)
+    inmueble = models.ForeignKey(Inmueble, on_delete=models.CASCADE)
+    mensaje = models.TextField(blank=True)
+    def __str__(self):
+        return f"Solicitud de {self.inmueble.nombre} por {self.arrendatario.nombres} {self.arrendatario.apellidos}"    

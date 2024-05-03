@@ -31,6 +31,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+LOGIN_REDIRECT_URL = 'index'
+LOGIN_URL = 'login'
+LOGOUT_URL = 'logout'
 
 # Application definition
 
@@ -88,6 +91,7 @@ DATABASES = {
         'PORT': '5432',
     }
 }
+
 
 
 # Password validation
