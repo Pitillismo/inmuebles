@@ -1,0 +1,133 @@
+[
+    {
+      "model": "app.usuario",
+      "pk": 1,
+      "fields": {
+        "nombres": "dsgfsdsdf",
+        "apellidos": "sdfsfds",
+        "rut": "231467854",
+        "direccion": "dfsdgdf",
+        "telefono": "9485052884",
+        "tipo_usuario": "arrendador",
+        "correo_electronico": "correo@correo.cl"
+      }
+    },
+    {
+      "model": "app.usuario",
+      "pk": 2,
+      "fields": {
+        "nombres": "Juan",
+        "apellidos": "Perez",
+        "rut": "987654321",
+        "direccion": "Av. Providencia 123",
+        "telefono": "987654321",
+        "tipo_usuario": "arrendador",
+        "correo_electronico": "juanperez@example.com"
+      }
+    },
+    {
+      "model": "app.usuario",
+      "pk": 3,
+      "fields": {
+        "nombres": "Catalina",
+        "apellidos": "Millan",
+        "rut": "172406904",
+        "direccion": "Bellavista 1819",
+        "telefono": "984940584",
+        "tipo_usuario": "arrendatario",
+        "correo_electronico": "catalina@correo.cl"
+      }
+    },
+    {
+      "model": "app.usuario",
+      "pk": 4,
+      "fields": {
+        "nombres": "Luisa",
+        "apellidos": "Gomez",
+        "rut": "345678901",
+        "direccion": "Calle Los Robles 456",
+        "telefono": "789012345",
+        "tipo_usuario": "arrendador",
+        "correo_electronico": "luisagomez@example.com"
+      }
+    },
+    {
+      "model": "app.usuario",
+      "pk": 5,
+      "fields": {
+        "nombres": "Andrés",
+        "apellidos": "Fernández",
+        "rut": "456789012",
+        "direccion": "Av. Libertador 789",
+        "telefono": "890123456",
+        "tipo_usuario": "arrendador",
+        "correo_electronico": "andresfernandez@example.com"
+      }
+    },
+    {
+      "model": "app.usuario",
+      "pk": 6,
+      "fields": {
+        "nombres": "Gabriel",
+        "apellidos": "González",
+        "rut": "564738291",
+        "direccion": "Av. Providencia 789",
+        "telefono": "555-9876",
+        "tipo_usuario": "arrendatario",
+        "correo_electronico": "gabriel@example.com"
+      }
+    },
+    {
+      "model": "app.usuario",
+      "pk": 7,
+      "fields": {
+        "nombres": "Valentina",
+        "apellidos": "Lopez",
+        "rut": "384920173",
+        "direccion": "Calle Flores 456",
+        "telefono": "555-4321",
+        "tipo_usuario": "arrendatario",
+        "correo_electronico": "valentina@example.com"
+      }
+    },
+    {
+      "model": "app.usuario",
+      "pk": 8,
+      "fields": {
+        "nombres": "Diego",
+        "apellidos": "Martinez",
+        "rut": "928374651",
+        "direccion": "Rue de Paris 789",
+        "telefono": "555-8765",
+        "tipo_usuario": "arrendatario",
+        "correo_electronico": "diego@example.com"
+      }
+    },
+    {
+      "model": "app.usuario",
+      "pk": 9,
+      "fields": {
+        "nombres": "Camila",
+        "apellidos": "García",
+        "rut": "293847562",
+        "direccion": "Via Roma 321",
+        "telefono": "555-2109",
+        "tipo_usuario": "arrendatario",
+        "correo_electronico": "camila@example.com"
+      }
+    },
+    {
+      "model": "app.usuario",
+      "pk": 10,
+      "fields": {
+        "nombres": "Felipe",
+        "apellidos": "Rodriguez",
+        "rut": "748392015",
+        "direccion": "123 Broadway",
+        "telefono": "555-6789",
+        "tipo_usuario": "arrendatario",
+        "correo_electronico": "felipe@example.com"
+      }
+    }
+  ]
+  

@@ -1,0 +1,182 @@
+[
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$bhTp1NDKQ9bRFgttzS2CIv$QScjhOCxS5dPs7WHmdsu1ndERjndGPDc5el8/HteWoc=",
+      "last_login": "2024-05-03T17:05:30.474Z",
+      "is_superuser": false,
+      "username": "sdfsdfsd",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-05-03T17:05:29.689Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$A7TQrq9thnd3f58hlHnoeC$d8mbdLRnREE/SuFVChipgxINtF0whlTqO/+d4S5STDg=",
+      "last_login": "2024-05-06T16:59:50.135Z",
+      "is_superuser": true,
+      "username": "admin",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2024-05-03T17:06:28.925Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 3,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$faMq5U5gHs0FVl94iRTNZf$GoPgl4j2jhFyoNo1jxcOaA2WChFwZAPKGaqO5TTPhFE=",
+      "last_login": "2024-05-06T16:56:29.349Z",
+      "is_superuser": false,
+      "username": "Cata",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-05-06T16:56:28.594Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 4,
+    "fields": {
+      "password": "password_hash",
+      "last_login": "2024-05-07T12:00:00.000Z",
+      "is_superuser": false,
+      "username": "dsgfsdsdf",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-05-07T12:00:00.000Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 5,
+    "fields": {
+      "password": "password_hash",
+      "last_login": "2024-05-07T12:00:00.000Z",
+      "is_superuser": false,
+      "username": "Juan",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-05-07T12:00:00.000Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 6,
+    "fields": {
+      "password": "password_hash",
+      "last_login": "2024-05-07T12:00:00.000Z",
+      "is_superuser": false,
+      "username": "Luisa",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-05-07T12:00:00.000Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 7,
+    "fields": {
+      "password": "password_hash",
+      "last_login": "2024-05-07T12:00:00.000Z",
+      "is_superuser": false,
+      "username": "Andrés",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-05-07T12:00:00.000Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 8,
+    "fields": {
+      "password": "password_hash",
+      "last_login": "2024-05-07T12:00:00.000Z",
+      "is_superuser": false,
+      "username": "Laura",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-05-07T12:00:00.000Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 9,
+    "fields": {
+      "password": "password_hash",
+      "last_login": "2024-05-07T12:00:00.000Z",
+      "is_superuser": false,
+      "username": "Marcela",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-05-07T12:00:00.000Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 10,
+    "fields": {
+      "password": "password_hash",
+      "last_login": "2024-05-07T12:00:00.000Z",
+      "is_superuser": false,
+      "username": "Gabriel",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-05-07T12:00:00.000Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  }
+]
